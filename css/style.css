@@ -42,3 +42,21 @@
 .debug{
     border: 1px solid red;
 }
+/* header */
+nav{
+    background-color: var(--text-white);
+}
+/* main */
+main{
+    background-color: var(--text-white);
+}
+/* footer */
+footer{
+    background-color: var(--text-black);
+    color: var(--text-white);
+}
+
+/* utilities */
+.bg-lightblue{
+    background-color: var(--lgt-blue);
+}
