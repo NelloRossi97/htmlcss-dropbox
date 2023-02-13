@@ -181,6 +181,29 @@ h4{
     bottom: -35px;
 }
 
+/* partner */
+.photo-partner{
+    width: 60%;
+}
+.photo-partner img{
+    width: 100%;
+}
+.text-partner{
+    width: 40%;
+    padding: 50px 45px;
+}
+.text-partner p{
+    margin-bottom: 50px;
+}
+
+#find-partner{
+    padding: 10px 15px;
+    border: 1px solid black;
+}
+#find-partner a{
+    color: var(--text-black);
+}
+
 /* footer */
 footer{
     background-color: var(--text-black);
