@@ -170,6 +170,17 @@ h4{
     padding: 15px 0;
 }
 
+.team-card{
+    width: 100%;
+    border: 1px solid lightgrey;
+    margin-top: 50px;
+}
+
+.btn-contact{
+    position: relative;
+    bottom: -35px;
+}
+
 /* footer */
 footer{
     background-color: var(--text-black);
@@ -212,4 +223,8 @@ footer{
 
 .grey-text{
     color: grey;
+}
+
+.small-text{
+    font-size: 0.9rem;
 }
