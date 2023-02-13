@@ -20,6 +20,9 @@
     --yellow-logo: #FFD830;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 /* <i class="fa-solid fa-arrow-down"></i>
 <i class="fa-solid fa-users"></i>
 <i class="fa-solid fa-user"></i>
@@ -75,7 +78,11 @@ nav li{
 }
 
 span a{
-    color:var(--text-white)
+    color:var(--text-white);
+}
+
+#login{
+    padding: 5px 10px;
 }
 /* main */
 main{
@@ -84,6 +91,31 @@ main{
 
 #hero{
     margin-top: 80px;
+}
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+    padding-top: 80px;
+}
+.text-hero{
+    width: 30%;
+    position: relative;
+    padding-top: 70px;
+}
+
+.text-hero i{
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+.img-hero{
+    width: 70%;
+}
+
+.text-photo img{
+    width: 100%;
+    position: relative;
+    bottom: -70px;
 }
 /* footer */
 footer{
@@ -103,5 +135,13 @@ footer{
 .btn-blue{
     color: var(--text-white);
     background-color: var(--bg-btn-blue);
-    padding: 5px 10px;
+    padding: 10px 15px;
+}
+
+
+.d-flex-col{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
