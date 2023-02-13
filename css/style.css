@@ -5,6 +5,40 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body{
-    background-color: black;
+:root{
+    --bg-btn-blue: #0061FF;
+    --lgt-blue: #B4D0E7;
+    --text-black: #000000;
+    --text-white: #FFFFFF;
+    --green-logo: #A2D39B;
+    --green-logo-border: #D1E9CD;
+    --amaranth-logo: #61082B;
+    --lgt-blue-logo: #0093CE;
+    --red-logo: #FF1C1C;
+    --red-logo-2: #D5001F;
+    --blue-logo: #0D2481;
+    --yellow-logo: #FFD830;
+}
+
+/* <i class="fa-solid fa-arrow-down"></i>
+<i class="fa-solid fa-users"></i>
+<i class="fa-solid fa-user"></i>
+<i class="fa-solid fa-folder"></i>
+<i class="fa-solid fa-share-nodes"></i>
+<i class="fa-solid fa-check"></i>
+<i class="fa-solid fa-building"></i>
+<i class="fa-solid fa-earth-americas"></i> */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-small{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.debug{
+    border: 1px solid red;
 }
