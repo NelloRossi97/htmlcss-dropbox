@@ -20,9 +20,6 @@
     --yellow-logo: #FFD830;
 }
 
-html{
-    scroll-behavior: smooth;
-}
 /* <i class="fa-solid fa-arrow-down"></i>
 <i class="fa-solid fa-users"></i>
 <i class="fa-solid fa-user"></i>
@@ -128,6 +125,49 @@ label{
 }
 fieldset{
     border: none;
+    margin-bottom: 50px;
+}
+.plans-title{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.plans-title i{
+    padding-right: 5px;
+}
+
+.plan{
+    border: 1px solid lightgray;
+    width: calc((100% / 3) - 30px);
+}
+h3{
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+.plan p{
+    padding-bottom: 20px;
+}
+
+.plans-body-buy span{
+    margin-bottom: 30px;
+}
+
+#buy-now{
+    text-decoration: underline;
+    color: blue;
+}
+h4{
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+.plans-body-bottom i{
+    color: var(--bg-btn-blue);
+}
+
+.plans-body-bottom li{
+    padding: 15px 0;
 }
 
 /* footer */
@@ -151,10 +191,25 @@ footer{
     padding: 10px 15px;
 }
 
+.text-bold{
+    font-weight: bold;
+}
 
+.content-center{
+    display: flex;
+    justify-content: center;
+}
 .d-flex-col{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.p-top30-right20{
+    padding: 20px 20px;
+}
+
+.grey-text{
+    color: grey;
 }
