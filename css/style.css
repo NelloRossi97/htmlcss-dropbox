@@ -20,14 +20,7 @@
     --yellow-logo: #FFD830;
 }
 
-/* <i class="fa-solid fa-arrow-down"></i>
-<i class="fa-solid fa-users"></i>
-<i class="fa-solid fa-user"></i>
-<i class="fa-solid fa-folder"></i>
-<i class="fa-solid fa-share-nodes"></i>
-<i class="fa-solid fa-check"></i>
-<i class="fa-solid fa-building"></i>
-<i class="fa-solid fa-earth-americas"></i> */
+/* <i class="fa-solid fa-earth-americas"></i> */
 
 .container{
     max-width: 1200px;
@@ -45,7 +38,7 @@
 
 .d-flex{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
 }
 .align-center{
@@ -202,6 +195,18 @@ h4{
 }
 #find-partner a{
     color: var(--text-black);
+}
+
+/* business */
+.card-business-container{
+    width: calc(100% / 3);
+}
+.card-business{
+    width: calc(100% / 3);
+    padding: 5px 10px;
+}
+.card-business img{
+    width: 100%;
 }
 
 /* footer */
