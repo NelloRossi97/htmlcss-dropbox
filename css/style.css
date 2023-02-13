@@ -88,7 +88,7 @@ span a{
 main{
     background-color: var(--text-white);
 }
-
+/* hero */
 #hero{
     margin-top: 80px;
 }
@@ -117,6 +117,19 @@ h1{
     position: relative;
     bottom: -70px;
 }
+/* plans */
+h2{
+    font-size: 2.5rem;
+    margin: 40px 0;
+}
+
+label{
+    padding-right: 40px;
+}
+fieldset{
+    border: none;
+}
+
 /* footer */
 footer{
     background-color: var(--text-black);
