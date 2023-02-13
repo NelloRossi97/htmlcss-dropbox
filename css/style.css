@@ -42,6 +42,7 @@
 .debug{
     border: 1px solid red;
 }
+
 /* header */
 nav{
     background-color: var(--text-white);
@@ -59,4 +60,8 @@ footer{
 /* utilities */
 .bg-lightblue{
     background-color: var(--lgt-blue);
+}
+
+.mb-100{
+    margin-bottom: 100px;
 }
