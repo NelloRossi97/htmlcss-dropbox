@@ -209,6 +209,14 @@ h4{
     width: 100%;
 }
 
+/* more */
+.more{
+    width: 60%;
+}
+#more a{
+    text-decoration: underline;
+    color: blue;
+}
 /* footer */
 footer{
     background-color: var(--text-black);
