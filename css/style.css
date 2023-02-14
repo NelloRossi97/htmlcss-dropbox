@@ -25,6 +25,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -320,6 +321,10 @@ summary{
 summary h3{
     display: inline-block;
     font-size: 1rem;
+}
+
+details{
+    padding-bottom: 10px;
 }
 
 /* footer */
