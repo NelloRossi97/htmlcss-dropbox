@@ -127,6 +127,10 @@ h1{
     position: relative;
     bottom: -70px;
 }
+
+#cancel:hover{
+    text-decoration: underline;
+}
 /* plans */
 h2{
     font-size: 2.5rem;
