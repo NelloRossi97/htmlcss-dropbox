@@ -311,6 +311,17 @@ h4{
     color: var(--text-black);
 }
 
+/* faq */
+summary{
+	list-style:none;
+    padding: 30px 0 15px 0;
+    border-top: 1px solid gray;
+}
+summary h3{
+    display: inline-block;
+    font-size: 1rem;
+}
+
 /* footer */
 footer{
     background-color: var(--text-black);
