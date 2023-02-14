@@ -131,6 +131,7 @@ h1{
 #cancel:hover{
     text-decoration: underline;
 }
+
 /* plans */
 h2{
     font-size: 2.5rem;
@@ -394,6 +395,11 @@ select:focus{
     color: var(--text-white);
     background-color: var(--bg-btn-blue);
     padding: 10px 15px;
+    transition: 1s;
+}
+
+.btn-blue:hover{
+    background-color: var(--lgt-blue-logo);
 }
 
 .text-bold{
