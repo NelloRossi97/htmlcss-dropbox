@@ -401,6 +401,7 @@ select:focus{
 
 .btn-blue:hover{
     background-color: var(--lgt-blue-logo);
+    cursor: pointer;
 }
 
 .text-bold{
