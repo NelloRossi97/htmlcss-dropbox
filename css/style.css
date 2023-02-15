@@ -157,7 +157,7 @@ span a{
     background-color: lightgray;
 }
 
-#hidden-title:hover{
+.nav-hidden li:first-child:hover{
     background-color: transparent;
 }
 
