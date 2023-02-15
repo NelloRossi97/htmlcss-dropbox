@@ -94,6 +94,41 @@ span a{
 #login a:hover{
     border: none;
 }
+
+#why-drpbx{
+    position: relative;
+}
+
+#why-drpbx:hover .why-drpbx-hidden{
+    display: block;
+    display: flex;
+}
+
+
+.why-drpbx-hidden{
+    position: absolute;
+    top: 54px;
+    width: 25vw;
+    padding: 20px 0;
+    display: none;
+    background-color: lightgray;
+}
+
+.why-drpbx-hidden li{
+    padding: 5px 20px;
+}
+
+.why-drpbx-hidden a:hover{
+    border: none;
+}
+.why-drpbx-hidden li:hover{
+    background-color: gray;
+}
+
+#hidden-title:hover{
+    background-color: transparent;
+}
+
 /* main */
 main{
     background-color: var(--text-white);
