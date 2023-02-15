@@ -145,6 +145,8 @@ span a{
     padding: 20px 0;
     display: none;
     background-color: white;
+    border: 1px solid black;
+    border-top: none;
 }
 
 .nav-hidden li{
