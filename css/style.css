@@ -95,17 +95,26 @@ span a{
     border: none;
 }
 
-#why-drpbx{
+#why-drpbx, #nav-function{
     position: relative;
 }
 
-#why-drpbx:hover .why-drpbx-hidden{
+#why-drpbx:hover .nav-hidden{
     display: block;
     display: flex;
 }
 
+#nav-function:hover .nav-hidden{
+    display: block;
+    display: flex;
+}
 
-.why-drpbx-hidden{
+#nav-function .nav-hidden{
+    width: 10vw;
+    padding: 10px 10px;
+}
+
+.nav-hidden{
     position: absolute;
     top: 54px;
     width: 25vw;
@@ -114,20 +123,21 @@ span a{
     background-color: white;
 }
 
-.why-drpbx-hidden li{
+.nav-hidden li{
     padding: 5px 20px;
 }
 
-.why-drpbx-hidden a:hover{
+.nav-hidden a:hover{
     border: none;
 }
-.why-drpbx-hidden li:hover{
+.nav-hidden li:hover{
     background-color: lightgray;
 }
 
 #hidden-title:hover{
     background-color: transparent;
 }
+
 
 /* main */
 main{
@@ -206,28 +216,7 @@ h3{
 .plans-body-buy span{
     margin-bottom: 30px;
 }
-.user:before, .storage:before, .share:before, .check:before{
-    font-family: "Font Awesome 5 free";
-    font-weight: 600;
-    margin-right: 10px;
-}
 
-.user:before{
-    content: "\f007";
-}
-
-.storage:before{
-    content: "\f07b";
-}
-
-.share:before{
-    content: "\f1e0";
-}
-
-.check:before{
-    content: "\f00c";
-    color: var(--bg-btn-blue);
-}
 
 .hr-plan{
     width: 20%;
@@ -527,4 +516,38 @@ select:focus{
 
 .small-text{
     font-size: 0.9rem;
+}
+.user:before, .storage:before, .share:before, .check:before, .dropbox-icon:before, .backup-icon::before, .access-icon::before{
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.user:before{
+    content: "\f007";
+}
+
+.storage:before{
+    content: "\f07b";
+}
+
+.share:before{
+    content: "\f1e0";
+}
+
+.check:before{
+    content: "\f00c";
+    color: var(--bg-btn-blue);
+}
+
+.dropbox-icon:before{
+    content: "\f49e";
+}
+
+.backup-icon::before{
+    content: "\f04a";
+}
+
+.access-icon::before{
+    content: "\f061";
 }
