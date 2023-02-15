@@ -171,7 +171,41 @@ h3{
 .plans-body-buy span{
     margin-bottom: 30px;
 }
+.user:before, .storage:before, .share:before, .check:before{
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    margin-right: 10px;
+}
 
+.user:before{
+    content: "\f007";
+}
+
+.storage:before{
+    content: "\f07b";
+}
+
+.share:before{
+    content: "\f1e0";
+}
+
+.check:before{
+    content: "\f00c";
+    color: var(--bg-btn-blue);
+}
+
+.hr-plan{
+    width: 20%;
+    position: relative;
+    left: 20px;
+    border: 1px solid lightgray;
+}
+
+.plan ul li{
+    text-indent: -1.5rem;
+    padding-left: 1.2rem;
+    margin-bottom: 20px;
+}
 #buy-now{
     text-decoration: underline;
     color: blue;
